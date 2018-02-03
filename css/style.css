@@ -1,0 +1,271 @@
+body{
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+            /* HEADER */
+
+header{
+    background-color: #3a7dfd;
+    padding-top: 59px;
+    padding-bottom: 22px;
+}
+
+.content-header{
+    color: #fff;
+}
+
+.header-pretitle{
+    font-weight: 700;
+    margin-top: 102px;
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 46.81px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+.header-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px
+}
+
+.content-header a{
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #072b6f;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 17px 57px 19px 55px;
+    margin-top: 33px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.content-header a:hover{
+    box-shadow: none;
+    color: #fff;
+    background-color: #40AD54;
+}
+
+header small{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.header-button-block{
+    max-width: 210px;
+    
+}
+
+                /* PORTFOLIO */
+
+.portfolio{
+    background-color: #ddd;
+    padding-top: 44px;
+    padding-bottom: 71px;
+}
+
+.portfolio-block{
+    background-color: #fff;
+    padding-top: 29px;
+    padding-bottom:41px;
+}
+
+.portfolio-title{
+    color: #072b6f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.portfolio-subtitle{
+    color: #7bb9ff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.portfolio-title, .portfolio-subtitle{
+    text-align: center;
+}
+
+.portfolio-col-1{
+    padding-left: 50px;
+}
+
+.portfolio-col-2{
+    padding-right: 50px;
+}
+
+.portfolio-block h3{
+    color: #072b6f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio-text{
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.portfolio-block a{
+    color: #072b6f;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+            /* FOOTER */
+
+footer{
+    background-color: #3a7dfd;
+    color: #fff;
+    padding-bottom: 110px;
+    padding-top: 60px;
+}
+
+.author{
+    color: #fefefe;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+.footer-text{
+    color: #deedfe;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.social-block{
+    text-align: center;
+}
+
+.social-block a{
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.footer-cta-block{
+    text-align: center;
+}
+
+.footer-cta{
+    margin-bottom: 13px;
+}
+
+.footer-button{
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #deedfe;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 42px;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.footer-button:hover{
+    background-color: #fff;
+    color: #3a7dfd;
+}
+
+@media(max-width: 1200px){
+    .header-pretitle{
+    margin-top: 45px;
+ }
+}
+
+@media(max-width: 992px){
+    .header-img{
+        display: none;
+    }
+    
+    .header-pretitle{
+        margin-top: 10px;
+    }
+    
+    .footer-text{
+        font-size: 14px;
+    }
+    
+    .social-block a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .social-block img{
+        max-width: 35px;
+    }
+    
+    .footer-button{
+        font-size: 14px;
+        padding: 8px 35px;
+    }
+}
+
+@media(max-width: 768px){
+    .portfolio-col-1{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .portfolio-col-2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .author, .footer-text{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
